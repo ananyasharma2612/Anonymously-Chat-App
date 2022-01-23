@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Anonymously",
+    "slug": "anonymously",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "asas"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ananya_.anonymously"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "This is a chat app in which we can chat with others without knowing their identity or without getting any data from them except for the name entered "
+  }
+}
